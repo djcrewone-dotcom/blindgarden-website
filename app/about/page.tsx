@@ -36,9 +36,9 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* 헤더 */}
-      <section className="py-24 lg:py-32 bg-gradient-to-r from-[#10b981]/10 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-8 lg:mb-12">
+      <section className="min-h-[50vh] py-16 lg:py-20 bg-gradient-to-r from-[#10b981]/10 to-white flex items-center justify-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center items-center min-h-[50vh]">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 lg:mb-8">
             회사소개
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl text-gray-700 max-w-5xl mx-auto leading-relaxed">

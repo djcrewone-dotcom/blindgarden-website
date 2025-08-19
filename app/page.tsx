@@ -31,7 +31,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* 히어로 섹션 */}
-      <section className="relative py-28 md:py-36 lg:py-44 overflow-hidden">
+      <section className="relative min-h-[80vh] py-28 md:py-36 lg:py-44 overflow-hidden flex items-center justify-center">
         {/* 배경 이미지 */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -48,7 +48,7 @@ export default function HomePage() {
         </div>
         
         {/* 콘텐츠 */}
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center items-center" style={{ minHeight: '100%' }}>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center items-center min-h-[80vh]">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 md:mb-8 leading-tight md:leading-tight">
             블라인드&middot;커튼 전문<br />
             <span className="text-primary-300 mt-2 md:mt-3 block">블라인드가든</span>

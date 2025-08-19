@@ -412,12 +412,12 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen">
       {/* 헤더 */}
-      <section className="py-20 bg-gradient-to-r from-primary-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="min-h-[50vh] py-16 lg:py-20 bg-gradient-to-r from-primary-50 to-white flex items-center justify-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center items-center min-h-[50vh]">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             시공갤러리
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-5xl mx-auto leading-relaxed">
             BlindGarden의 다양한 시공 사례를 확인하세요.<br />
             실제 고객님들의 공간에 설치된 블라인드들을 만나보실 수 있습니다.
           </p>

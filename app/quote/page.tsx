@@ -127,10 +127,10 @@ export default function QuotePage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="py-20 bg-gradient-to-r from-primary-50 to-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="min-h-[50vh] py-16 lg:py-20 bg-gradient-to-r from-primary-50 to-white flex items-center justify-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col justify-center items-center min-h-[50vh]">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">문의 & 견적</h1>
-          <div className="text-xl text-gray-600 max-w-4xl mx-auto space-y-4">
+          <div className="text-lg md:text-xl lg:text-2xl text-gray-600 max-w-5xl mx-auto space-y-4 leading-relaxed">
             <p className="text-primary font-semibold">블라인드가든에서 제공되는<br />제품 & 서비스는 모두<br />정가 금액으로 제공됩니다.</p>
             <p>기본 타입으로 선택 시<br />정확한 견적 금액을 확인하실 수 있습니다.</p>
           </div>
