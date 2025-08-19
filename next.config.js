@@ -18,18 +18,10 @@ const nextConfig = {
     ],
   },
   
-  // 성능 최적화
-  experimental: {
-    optimizeCss: true,
-  },
-  
   // Vercel 환경 감지
   env: {
     VERCEL: process.env.VERCEL || 'false',
   },
-  
-  // 빌드 최적화
-  swcMinify: true,
   
   // 타입스크립트 설정
   typescript: {
