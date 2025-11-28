@@ -136,17 +136,21 @@ export default function ServicesPage() {
     <div className="min-h-screen">
       {/* 메인 비주얼 섹션 */}
       <section 
-        className="relative min-h-[50vh] py-16 lg:py-20 bg-gradient-to-r from-[#10b981]/10 to-white flex items-center justify-center"
+        className="relative py-20 lg:py-0 bg-gradient-to-r from-[#10b981]/10 to-white lg:h-screen lg:flex lg:items-center lg:justify-center pt-24 lg:pt-0 pb-16 lg:pb-0"
+        style={{ 
+          minHeight: '100vh',
+          height: 'auto'
+        }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full flex flex-col justify-center items-center min-h-[50vh]">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-loose">
-            공간에 꼭 맞는<br />
-            <span className="text-[#10b981] block mt-6">맞춤 블라인드</span>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full flex flex-col justify-center items-center lg:h-full lg:flex lg:items-center lg:justify-center" style={{ minHeight: 'calc(100vh - 6rem)' }}>
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-10 leading-loose">
+            우리 집, 우리 사무실에 꼭 맞는<br />
+            <span className="text-[#10b981] block mt-8">맞춤 블라인드</span>
           </h1>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-10 max-w-5xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             방문 실측부터 설치, AS까지 원스톱 서비스
           </p>
-          <p className="text-lg md:text-xl lg:text-2xl text-[#10b981] font-semibold mb-10 max-w-5xl mx-auto leading-relaxed">
+          <p className="text-lg text-[#10b981] font-semibold mb-12">
             고품질 맞춤 블라인드 & 커튼 전문 브랜드 블라인드가든
           </p>
           
@@ -156,13 +160,13 @@ export default function ServicesPage() {
               href="/quote"
               className="bg-[#10b981] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#0e9f6e] transition-colors"
             >
-              견적신청
+              무료 방문 견적 신청
             </Link>
             <Link
               href="/gallery"
               className="border-2 border-[#10b981] text-[#10b981] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#10b981] hover:text-white transition-colors"
             >
-              시공사례
+              시공 사례 보기
             </Link>
           </div>
         </div>
