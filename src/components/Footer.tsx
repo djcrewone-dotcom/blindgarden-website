@@ -13,9 +13,9 @@ export default function Footer() {
               아름다운 공간을 만들어드립니다.
             </p>
             <div className="text-sm text-gray-400">
-              <p>상호: 비즈민</p>
               <p>사업자등록번호: 618-21-03031</p>
               <p>대표: 김민겸</p>
+              <p>상호: 비즈민</p>
             </div>
           </div>
 
